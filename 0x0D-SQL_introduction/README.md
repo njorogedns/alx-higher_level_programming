@@ -21,7 +21,7 @@ $ cat 3-list_tables.sql | mysql -h localhost -u root -p mysql
   * [0-list_databases.sql](./0-list_databases.sql): MySQL script that lists all databases.
 
 * **1. Create a database**
-  * [1-create_database.sql](./1-create_database.sql): MySQL script that creates the database
+  * [1-create_database.sql](1-create_database_if_missing.sql): MySQL script that creates the database
   `hbtn_0c_0`.
 
 * **2. Delete a database**
